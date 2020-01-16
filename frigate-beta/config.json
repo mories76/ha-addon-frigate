@@ -21,7 +21,10 @@
         "config:rw"
     ],
     "name": "Frigate-beta",
-    "options": {},
+    "options": {
+        "CONFIG_FILE": "/config/frigate/config.yml",
+        "FRIGATE_RTSP_PASSWORD": "yourpassword"
+    },
     "panel_icon": "mdi:chip",
     "ports": {
         "5000/tcp": 5000
@@ -29,7 +32,10 @@
     "ports_description": {
         "5000/tcp": "Web interface (Not required for Hass.io Ingress)"
     },
-    "schema": {},
+    "schema": {
+        "CONFIG_FILE": "str",
+        "FRIGATE_RTSP_PASSWORD": "str"
+    },
     "slug": "frigate-beta",
     "startup": "application",
     "url": "https://github.com/blakeblackshear/frigate",
