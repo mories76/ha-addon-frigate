@@ -38,7 +38,7 @@
     },
     "slug": "frigate-beta",
     "startup": "application",
-    "url": "https://github.com/blakeblackshear/frigate",
-    "version": "0.0.5",
+    "url": "https://github.com/mories76/ha-addon-frigate",
+    "version": "0.0.6",
     "webui": "http://[HOST]:[PORT:5000]"
 }
