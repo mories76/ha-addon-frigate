@@ -20,7 +20,7 @@
     "map": [
         "config:rw"
     ],
-    "name": "Frigate-beta",
+    "name": "Frigate (beta)",
     "options": {
         "CONFIG_FILE": "/config/frigate/config.yml",
         "FRIGATE_RTSP_PASSWORD": "yourpassword"
