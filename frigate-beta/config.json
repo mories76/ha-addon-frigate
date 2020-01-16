@@ -39,6 +39,6 @@
     "slug": "frigate-beta",
     "startup": "application",
     "url": "https://github.com/blakeblackshear/frigate",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "webui": "http://[HOST]:[PORT:5000]"
 }
