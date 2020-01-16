@@ -1,9 +1,6 @@
 {
     "arch": [
-        "amd64",
-        "i386",
-        "armv7",
-        "aarch64"
+        "amd64"
     ],
     "auth_api": false,
     "auto_uart": false,
