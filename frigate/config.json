@@ -14,11 +14,11 @@
     "hassio_api": false,
     "hassio_role": "default",
     "homeassistant_api": false,
-    "host_network": true,
+    "host_network": false,
     "ingress": false,
     "ingress_port": 0,
     "map": [
-        "config:rw"
+        "config:ro"
     ],
     "name": "Frigate",
     "options": {
@@ -39,6 +39,6 @@
     "slug": "frigate",
     "startup": "application",
     "url": "https://github.com/mories76/ha-addon-frigate",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "webui": "http://[HOST]:[PORT:5000]/debug/stats"
 }
