@@ -1,7 +1,7 @@
 # Home Assistant Add-on: frigate
 
 An Home Assistant Add-on for Frigate - Realtime Object Detection for IP Cameras
-All the heavy lifting is done by [https://github.com/blakeblackshear/frigate]
+All the heavy lifting is done by https://github.com/blakeblackshear/frigate
 Uses OpenCV and Tensorflow to perform realtime object detection locally for IP
 cameras. Designed for integration with HomeAssistant or others via MQTT.
 
@@ -20,7 +20,7 @@ frigate-beta: uses the current beta release 0.5.4-rc4
 Follow these steps to get the add-on installed on your system:
 
 1. Navigate in your Home Assistant frontend to **Supervisor** -> **Add-on Store**.
-2. Add the following repository [https://github.com/mories76/ha-addon-frigate]
+2. Add the following repository https://github.com/mories76/ha-addon-frigate
 3. Find the "frigate" add-on and click it.
 4. Click on the "INSTALL" button.
 
