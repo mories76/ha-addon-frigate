@@ -5,11 +5,7 @@ All the heavy lifting is done by https://github.com/blakeblackshear/frigate
 Uses OpenCV and Tensorflow to perform realtime object detection locally for IP
 cameras. Designed for integration with HomeAssistant or others via MQTT.
 
-![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
-![Supports armhf Architecture][armhf-shield]
-![Supports armv7 Architecture][armv7-shield]
-![Supports i386 Architecture][i386-shield]
 
 This repository contains two add-ons:
 frigate: uses the current production release 0.5.0
