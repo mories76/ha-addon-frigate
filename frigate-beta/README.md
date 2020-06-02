@@ -8,7 +8,7 @@ cameras. Designed for integration with HomeAssistant or others via MQTT.
 ![Supports amd64 Architecture][amd64-shield]
 
 This repository contains two add-ons:
-frigate: uses the current production release 0.5.0
+frigate: uses the current production release 0.5.1
 frigate-beta: uses the current beta release 0.5.4-rc4
 
 ## Installation
