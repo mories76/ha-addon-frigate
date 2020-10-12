@@ -9,7 +9,7 @@ cameras. Designed for integration with HomeAssistant or others via MQTT.
 
 This repository contains two add-ons:  
 frigate: uses the current production release 0.6.1
-frigate-beta: uses the current rc release 0.6.0-rc3  
+frigate-beta: uses the current rc release 0.7.0-rc1  
 
 ## Installation
 
