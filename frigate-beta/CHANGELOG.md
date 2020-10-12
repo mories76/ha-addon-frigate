@@ -1,5 +1,6 @@
 # Changelog
 
+## 0.0.17 Update to python3.8
 ## 0.0.16 Updated image to 0.7.0-rc1
 ## 0.0.15 Updated image to 0.6.0-rc3
 ## 0.0.14 Correction for docker hub image name v0.6.0-rc2
