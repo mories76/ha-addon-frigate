@@ -1,4 +1,4 @@
-FROM blakeblackshear/frigate:0.7.0-rc2
+FROM blakeblackshear/frigate:0.7.0-rc3
 LABEL maintainer "blakeb@blakeshome.com"
 
 # Set shell
