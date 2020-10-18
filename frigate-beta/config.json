@@ -17,9 +17,10 @@
     "host_network": false,
     "ingress": true,
     "ingress_port": 5000,
-    "ingress_entry": "http://[HOST]:[PORT:5000]/debug/stats",
+    "ingress_entry": "/debug/stats",
     "map": [
-        "config:ro"
+        "config:ro",
+        "media:rw"
     ],
     "name": "Frigate (beta)",
     "options": {
@@ -31,7 +32,7 @@
         "5000/tcp": 5000
     },
     "ports_description": {
-        "5000/tcp": "Web interface (Not required for Hass.io Ingress)"
+        "5000/tcp": "Web interfaces"
     },
     "schema": {
         "CONFIG_FILE": "str",
@@ -40,6 +41,7 @@
     "slug": "frigate-beta",
     "startup": "application",
     "url": "https://github.com/mories76/ha-addon-frigate",
-    "version": "0.0.19",
+    "version": "0.0.20",
+    "watchdog": "[PROTO:option_name]://[HOST]:[PORT:5000]/debug/stats",
     "webui": "http://[HOST]:[PORT:5000]/debug/stats"
 }
