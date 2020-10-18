@@ -1,5 +1,6 @@
 # Changelog
 
+## 0.0.21 Added multiple architeture support 
 ## 0.0.20 Several houskeeping items
   - Added /media folder as a possible location for saving clips
   - Changed ingress_entry in addon options  

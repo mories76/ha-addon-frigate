@@ -1,6 +1,6 @@
 {
     "arch": [
-        "amd64"
+        "armv7", "aarch64", "amd64"
     ],
     "auth_api": false,
     "auto_uart": false,
@@ -41,7 +41,7 @@
     "slug": "frigate-beta",
     "startup": "application",
     "url": "https://github.com/mories76/ha-addon-frigate",
-    "version": "0.0.20",
+    "version": "0.0.21",
     "watchdog": "[PROTO:option_name]://[HOST]:[PORT:5000]/debug/stats",
     "webui": "http://[HOST]:[PORT:5000]/debug/stats"
 }
