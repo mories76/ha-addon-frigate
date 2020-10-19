@@ -1,3 +1,8 @@
+# This Add-on will be retired soon
+Frigate now has it's own offical Add-on.
+Thanks Blake !
+I suggest you install https://github.com/blakeblackshear/frigate-hass-addons
+
 # Home Assistant Add-on: frigate
 
 An Home Assistant Add-on for Frigate - Realtime Object Detection for IP Cameras
